@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; }
+html { background: black; color:white;	font-family:helvetica;}
+
+.opacity {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+#loading {
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
+
+#container {
+    margin: auto;
+    width:50%;
+    margin-top:100px;
+}
+
+#content {
+    float:left;
+    width:60%;
+}
+
+#home {
+    padding: 20px;
+}
+
+#about {
+    padding: 20px;
+}
+
+#services {
+    padding: 20px;
+}
+
+#footer{
+    margin-left:26px;
+    font-size: 10px;
+    margin-top: 40px;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+
+#navigation {
+	float:right;
+    margin-top:20px;
+}
+.nav_item {
+	cursor:pointer;
+	padding:0px;    
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+ul{
+    margin-top:6px;
+}
+
+li{
+    list-style: square;
+    margin-left: 40px;
+}
