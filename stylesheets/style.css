@@ -67,3 +67,7 @@ li{
     list-style: square;
     margin-left: 40px;
 }
+
+a {
+    color:#fff;
+}
