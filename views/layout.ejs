@@ -1,0 +1,19 @@
+<html>
+<head>
+<title><%= title %></title>
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/jquery.ui.js"></script>
+<script src="javascripts/airasoul.js"></script>
+<link rel="stylesheet" href="./stylesheets/style.css"/>
+<script>
+$(document).ready(function(){
+airasoul.initialise();
+$('.nav_item').hover( function () { airasoul.un_illuminate(this); }, function () { airasoul.illuminate(this); });
+$('#home_nav').click( function () { airasoul.toggle('home'); });
+$('#about_nav').click( function () { airasoul.toggle('about'); });
+$('#services_nav').click( function () { airasoul.toggle('services'); });
+});
+</script>
+</head>
+<body><%-body%></body>
+</html>
