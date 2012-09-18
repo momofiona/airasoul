@@ -25,4 +25,4 @@ app.get('/', routes.index);
 app.listen(config.port);
 
 console.log(config.welcome);
-//console.log("- airasoul express server listening on port %d in %s mode", app.address().port, app.settings.env);
+console.log("- airasoul express server listening on port %d in %s mode", app.address().port, app.settings.env);
